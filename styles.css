@@ -1,0 +1,71 @@
+/* Center the main title */
+.main-title {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Spread the 3 links evenly across the page width */
+.homepage_nav {
+  display: flex;
+  justify-content: space-around; /* Distributes links evenly with equal space around them */
+  align-items: center;
+  padding: 2rem;
+  max-width: 900px;              /* Keeps the links from stretching too far on huge screens */
+  margin: 0 auto;                /* Centers the entire navigation bar horizontally */
+}
+
+
+/*all of the navigation styles*/
+.navbar {
+  display: flex;
+  justify-content: space-around; /* Distributes links evenly with equal space around them */
+  align-items: center;
+  padding: 2rem;
+  max-width: 900px;              /* Keeps the links from stretching too far on huge screens */
+  margin: 0 auto;                /* Centers the entire navigation bar horizontally */
+}
+
+/* Style each anchor tag into a nice rounded box */
+.nav_btn {
+  text-decoration: none;        /* Removes the default blue underline */
+  color: #ffff;               /* Dark grey text color */
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  
+  /* Box dimensions & padding */
+  padding: 12px 28px;
+  
+  /* Border & Rounded Corners */
+  border: 2px solid #007bff;     /* Blue border outline */
+  border-radius: 12px;           /* Makes the box corners rounded */
+  
+  /* Smooth transition for hover effects */
+  transition: all 0.3s ease;
+}
+
+/* Optional hover effect when you mouse over a button */
+.nav_btn:hover {
+  background-color: #007bff;
+  color: #ffffff;                /* Switches text to white on hover */
+  transform: translateY(-2px);   /* Slight lift effect */
+}
+
+.navbar {
+  /* Layout & Spacing */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  /* Size Controls */
+  width: 100%;                  /* Makes the bar span the full width of the screen */
+  max-width: 1000px;             /* Prevents it from getting too wide on huge monitors */
+  min-height: 80px;              /* Sets a fixed height so it stays consistent */
+  margin: 0 auto;                /* Centers the nav bar horizontally */
+  padding: 1rem 2rem;            /* Spacing inside the bar (top/bottom, left/right) */
+  
+  /* Visual Differentiation */
+  background-color: #103a17;    /* Light grey background color */    /* Subtle border outline */
+          /* Gives the nav bar rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Adds a soft drop shadow */
+}
