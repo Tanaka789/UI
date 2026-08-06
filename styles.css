@@ -16,7 +16,7 @@
 }
 
 
-/*all of the navigation styles*/
+/*all of the navigation styles-------------------------------------------------------------------------------------*/
 .navbar {
   display: flex;
   justify-content: space-around; /* Distributes links evenly with equal space around them */

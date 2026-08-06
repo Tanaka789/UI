@@ -1,0 +1,31 @@
+.ranks{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-top:5%;
+}
+
+.rank_card{
+    margin-top:5%;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #18752f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.rank_img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    margin-bottom: 5%px;
+}
